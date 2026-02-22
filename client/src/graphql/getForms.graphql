@@ -1,0 +1,15 @@
+query GetForms {
+    forms {
+        id
+        title
+        description
+        questions {
+            type
+            title
+            isRequired
+            data {
+                value
+            }
+        }
+    }
+}

@@ -1,0 +1,53 @@
+.info h1 {
+    font-size: 28px;
+}
+
+.info p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.questions {
+    margin-top: 10px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.question {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    border: 1px solid black;
+}
+
+.question h3 {
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.question input[type="text"],
+.question input[type="date"] {
+    width: 50%;
+    font-size: 18px;
+    padding: 3px;
+}
+
+.submitButton {
+    padding: 5px 10px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.resultText {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.error {
+    margin-top: 5px;
+    color: red;
+}

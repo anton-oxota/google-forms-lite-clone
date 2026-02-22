@@ -1,0 +1,50 @@
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.inputTitle {
+    padding: 5px 10px;
+    font-size: 28px;
+}
+
+.info textarea {
+    min-width: 60px;
+    padding: 5px 10px;
+    resize: vertical;
+    font-size: 20px;
+}
+
+.questions {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.actions {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.actions button {
+    padding: 5px 10px;
+    font-size: 20px;
+}
+
+.resultText {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.error {
+    color: red;
+}

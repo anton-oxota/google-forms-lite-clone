@@ -1,0 +1,17 @@
+.variants {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.variants li {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 18px;
+}
+
+.variants input {
+    width: 20px;
+    height: 20px;
+}

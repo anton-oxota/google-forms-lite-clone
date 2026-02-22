@@ -1,0 +1,22 @@
+mutation CreateForm(
+    $title: String!
+    $questions: [QuestionInput!]!
+    $description: String
+) {
+    createForm(
+        title: $title
+        questions: $questions
+        description: $description
+    ) {
+        description
+        title
+        questions {
+            title
+            type
+            isRequired
+            data {
+                value
+            }
+        }
+    }
+}

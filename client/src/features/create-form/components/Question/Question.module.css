@@ -1,0 +1,56 @@
+.question {
+    padding: 10px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.info {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.questionTitle {
+    width: 100%;
+}
+
+.questionTitle > p {
+    margin-top: 5px;
+}
+
+.info input {
+    width: 100%;
+    font-size: 22px;
+    padding: 5px;
+}
+
+.info select {
+    height: auto;
+    font-size: 16px;
+}
+
+.variants input[type="text"],
+.variants input[type="date"] {
+    width: 50%;
+    font-size: 18px;
+    padding: 3px;
+}
+
+.variants input[type="checkbox"],
+.variants input[type="radio"] {
+    width: 20px;
+    height: 20px;
+}
+
+.requiredInput {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.error {
+    color: red;
+}

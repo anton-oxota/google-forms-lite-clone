@@ -1,0 +1,21 @@
+.response {
+    border: 1px solid black;
+}
+
+.question {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.question h3 {
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.answer {
+    margin-top: 10px;
+}
+
+.answer p {
+    font-size: 18px;
+}

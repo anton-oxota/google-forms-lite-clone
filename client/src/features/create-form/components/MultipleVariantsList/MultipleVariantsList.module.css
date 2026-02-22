@@ -1,0 +1,21 @@
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    list-style-type: none;
+}
+
+.inputs li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.addInputButton {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.error {
+    color: red;
+}

@@ -1,0 +1,15 @@
+.header {
+    padding: 20px 0;
+}
+
+.nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.nav a {
+    font-size: 18px;
+    color: black;
+}

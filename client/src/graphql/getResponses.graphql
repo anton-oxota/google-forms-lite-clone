@@ -1,0 +1,21 @@
+query GetResponses($formId: ID!) {
+    responses(formId: $formId) {
+        id
+        form {
+            id
+            title
+            description
+            questions {
+                title
+                isRequired
+                type
+                data {
+                    value
+                }
+            }
+        }
+        answers {
+            answer
+        }
+    }
+}

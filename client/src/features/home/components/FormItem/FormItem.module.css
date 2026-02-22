@@ -1,0 +1,28 @@
+.formItem {
+    padding: 10px;
+    border: 1px solid black;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.formItem h2 {
+    font-size: 26px;
+    font-weight: normal;
+}
+
+.formItem p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.actions a {
+    color: black;
+}
