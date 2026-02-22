@@ -1,5 +1,9 @@
 ## Set up
 
+```
+npm i
+```
+
 ### Client
 
 ```
